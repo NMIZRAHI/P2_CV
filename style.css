@@ -1,0 +1,67 @@
+body
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.section_haut
+{
+    display: flex;
+}
+
+.titre
+{
+    text-align: left;
+    padding-left: 1cm;
+    padding-top: 0.75cm;
+}
+
+.imagecv
+{
+    border-radius: 50%;
+    height: 4cm;
+    width: 4cm;
+    text-align: center;
+    }
+
+.zone_photo
+{
+    padding-top: 1cm;
+    background-color: yellow;
+    width: 6cm;
+    text-align: center;
+}
+
+.section_l
+{
+    background-color: yellow;
+    width: 6cm;
+    height: 24.7cm;
+}
+
+.section_bas
+{
+    display: flex;
+}
+
+.section_d
+{
+    width: 13cm;
+    padding-left: 1cm;
+}
+
+.section_l h1
+{
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: yellow;
+}
