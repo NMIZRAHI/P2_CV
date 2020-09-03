@@ -14,6 +14,7 @@ body
 .section_haut
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .titre
@@ -57,11 +58,27 @@ body
     padding-left: 1cm;
 }
 
+.section_d h2
+{
+    width: 13cm;
+    padding-left: 1cm;
+    padding: 0rem;
+    font-size: 1.3rem;
+}
+
 .section_l h1
 {
-    font-size: 1.2rem;
     text-align: center;
     text-transform: uppercase;
     background-color: black;
     color: yellow;
+    margin-top: 0rem;
+}
+
+.section_bas h1
+{
+    font-size: 1.3rem;
+    margin-top: 0rem;
+    text-transform: uppercase;
+    padding: 3px;
 }
